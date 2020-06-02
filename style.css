@@ -1,0 +1,134 @@
+html, body {
+	height: 100%;
+	font-family: Arial;
+	padding: 0;
+	margin: 0;
+}
+button {
+	border-radius: 4px 4px 4px 4px;
+	-moz-border-radius: 4px 4px 4px 4px;
+	-webkit-border-radius: 4px 4px 4px 4px;
+	border: 1px solid #f0f0f0;
+	height: 41%;
+	color: #4d4d4d;
+
+}
+
+.grid {
+	display: grid;
+	height: 100vh;
+	min-height: 100%;
+	width: 100%;
+	grid-template: 1fr 1.5fr 3.5fr 1fr 2fr 0.3fr 2fr 1fr 1fr / 7fr 1fr 2fr 2.5fr 3.7fr 3fr 2fr 5fr 
+}
+
+.navbar {
+	background-color: blue;
+	grid-area: 1 / -2 / span 1 / span 8;
+	align-self: center;
+	justify-self: center;
+}
+
+.mainEmpty1 {
+	background-color: green;
+	grid-area: 2 / 1 / span 1 / span 8;
+
+}
+
+.google {
+	background-color: grey;
+	grid-area: 3 / 1 / span 1 / span 8;
+	place-self: center;
+}
+
+.searchBox {
+	background-color: yellow;
+	grid-area: 4/ 1 / span 1 / span 8;
+	justify-self: strech;
+}
+
+.buttons {
+	background-color: grey;
+	grid-area: 5 / 1 / span 1 / span 8;
+	/*place-self: center;*/
+	background-color: green;
+}
+
+.language {
+	background-color: green;
+	grid-area: 6/ 1 / span 1 / span 8; 
+	place-self: center;
+}
+
+.Empty1 {
+	background-color: grey;
+	grid-area: 7 / 1 / span 1 / span 8; 
+}
+
+
+.country {
+	
+	grid-area: 8 / 1 / span 1 / span 8;
+	border: 2px solid #e6e6e6;
+	background-color: #f2f2f2;
+}
+
+.Advert {
+
+	grid-area: 9 / 1 / span 1 / span 7;
+	border-left: 2px solid #e6e6e6;
+	border-bottom: 2px solid #e6e6e6;
+	background-color: #f2f2f2;
+}
+
+.privacy {
+
+	grid-area: 9 / -1 / span 1 / -2;
+	justify-self: end;
+	border-right: 2px solid #e6e6e6;
+	border-bottom: 2px solid #e6e6e6;;
+	background-color: #f2f2f2;
+}
+
+.google span {
+	font-size: 500%;
+	font-weight: 545;
+}
+
+.navbar p {
+	color: grey;
+	font-size: 76%;
+	word-spacing: 10px;
+}
+
+#searchBox {
+	width: 40%;
+	height: 97%;
+	border-radius: 53px 53px 53px 53px;
+	-moz-border-radius: 53px 53px 53px 53px;
+	-webkit-border-radius: 53px 53px 53px 53px;
+	border: 1px solid #e6e6e6;
+	
+}
+
+ h3 {
+	font-size: 90%;
+	font-weight: normal;
+	color: #424242;
+
+}
+
+a {
+	color: #341a8a;
+	text-decoration: none;
+}
+
+h4 {
+	font-size: 85%;
+	color: #4d4d4d;
+	font-weight: 100;
+}
+
+p {
+	font-weight: bold;
+}
